@@ -22,7 +22,6 @@ let addNote = (title, body) => {
     title,
     body
   };
-
 //write to file only if it is not a duplicate title
   let duplicateNotes = notes.filter((note) => note.title === title);
 
